@@ -2,6 +2,10 @@
 # CSV to JSON Converter (PowerShell)
 
 This PowerShell script converts a CSV file containing data for OATH TOTP Hardware tokens for importing into Entra ID  into a JSON format required to be used with the new Graph API based hardware token provisioning method.
+
+> **Warning**
+> This converter can only be used with SHA1 tokens and not compatible with SHA256 (such as C203)
+
 ## Features
 
 - Converts CSV data into a structured JSON format.
